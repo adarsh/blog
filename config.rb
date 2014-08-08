@@ -19,6 +19,13 @@ configure :build do
   activate :minify_javascript
 end
 
+activate :deploy do |deploy|
+  deploy.build_before = true
+  deploy.method = :git
+  deploy.remote  = 'git@github.com:adarsh/adarsh.github.io.git'
+  deploy.branch  = 'master'
+end
+
 activate :automatic_image_sizes
 activate :directory_indexes
 activate :neat

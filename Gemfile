@@ -4,6 +4,7 @@ ruby '2.1.2'
 
 gem 'middleman'
 gem 'middleman-blog'
+gem 'middleman-deploy'
 gem 'middleman-neat'
 gem 'middleman-syntax'
 gem 'nokogiri'

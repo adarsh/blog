@@ -23,6 +23,6 @@ Boot the middleman server.
 Run the rake task to deploy the site and purge cache:
 
     $ middleman deploy
-    $ open adarsh.io
+    $ open http://adarsh.io
 
 Big thanks to [Harlow Ward](https://github.com/harlow) for the Middleman template.
