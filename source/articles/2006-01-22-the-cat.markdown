@@ -1,0 +1,19 @@
+---
+author: adarshpandit
+comments: true
+date: 2006-01-22 19:23:00+00:00
+slug: the-cat
+title: The Cat
+wordpress_id: 107
+categories:
+- bathroom
+- chicago
+- empty bottle
+- graffiti
+- Music
+- photo
+- Photos
+---
+
+[![](http://photos1.blogger.com/blogger/5119/270/320/IMG_3044.jpg)](http://photos1.blogger.com/blogger/5119/270/640/IMG_3044.jpg)   
+The wall over the toilet at The Empty Bottle in Chicago. I especially like the cat. [![Posted by Picasa](http://photos1.blogger.com/pbp.gif)](http://picasa.google.com/)

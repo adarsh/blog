@@ -1,0 +1,16 @@
+---
+author: adarshpandit
+comments: true
+date: 2006-02-12 00:12:00+00:00
+slug: soundbar
+title: Soundbar
+wordpress_id: 113
+categories:
+- chicago
+- Music
+- photo
+- Photos
+- soundbar
+---
+
+[![](http://photos1.blogger.com/blogger/5119/270/320/IMG_3154.jpg)](http://photos1.blogger.com/blogger/5119/270/640/IMG_3154.jpg)
