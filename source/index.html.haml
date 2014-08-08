@@ -1,0 +1,10 @@
+---
+title: Adarsh Pandit
+description:
+---
+
+%h1 Adarsh Pandit
+%h3{class: 'tagline'} Tagline
+
+- blog.articles[0..50].each do |article|
+  = partial 'article', locals: { article: article }

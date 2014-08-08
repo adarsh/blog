@@ -1,0 +1,5 @@
+- articles = blog.articles.select { |item| item.data.category == parent_article.data.category && item.data.title != parent_article.data.title }
+- if articles.any?
+  .related
+    - articles.each do |article|
+      = partial 'article', locals: { article: article }
