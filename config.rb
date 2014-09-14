@@ -10,7 +10,7 @@ set :images_dir, 'images'
 set :js_dir, 'javascripts'
 set :markdown, fenced_code_blocks: true, smartypants: true
 set :markdown_engine, :redcarpet
-set :site_name, 'Adarsh Pandit'
+set :site_name, 'Adarsh Pandit Blog'
 set :trailing_slash, false
 
 configure :build do
@@ -28,5 +28,6 @@ end
 
 activate :automatic_image_sizes
 activate :directory_indexes
+activate :livereload
 activate :neat
 activate :syntax
