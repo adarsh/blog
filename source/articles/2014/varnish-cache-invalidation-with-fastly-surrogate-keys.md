@@ -4,6 +4,7 @@ date: 2013-12-12
 author: Harlow Ward
 description: I've been seeing seriously fast results using Fastly's hosted Varnish service. This post covers purging the Varnish Page cache with Surrogate Keys.
 category: rails
+published: false
 ---
 
 We've been using [Fastly](http://www.fastly.com/) on a few projects at

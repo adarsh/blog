@@ -1,6 +1,7 @@
 ---
 title: "Importing WordPress Blog"
 date: 2013-08-11
+author: Adarsh Pandit
 categories: [ octopress, jekyll, blog, wordpress, export, import]
 ---
 
