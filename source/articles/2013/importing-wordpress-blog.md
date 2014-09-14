@@ -1,8 +1,9 @@
 ---
-title: "Importing WordPress Blog"
+title: Importing WordPress Blog
 date: 2013-08-11
+description: How to import a WordPress blog into Octopress
 author: Adarsh Pandit
-categories: [ octopress, jekyll, blog, wordpress, export, import]
+tags: [ octopress, jekyll, blog, wordpress, export, import]
 ---
 
 I just exported posts from my [old site][1]. I used the following tools:

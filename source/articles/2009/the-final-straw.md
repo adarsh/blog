@@ -1,21 +1,10 @@
 ---
-author: adarshpandit
-comments: true
-date: 2009-01-04 22:29:40+00:00
-slug: the-final-straw
-title: 'The Lions: The final straw in the decline of Detroit (2008- Kwame, Bailout,
-  Lions)'
-wordpress_id: 44
-categories:
-- auto industry
-- bailout
-- Detroit
-- economy
-- kwame kilpatrick
-- lions
-- michigan
-- nfl
-- sports
+title: The Lions - The final straw in the decline of Detroit in 2008
+date: 2009-01-04
+author: Adarsh Pandit
+description: The Lions - The final straw in the decline of Detroit
+category: writing
+tags: [auto industry, bailout, Detroit, economy, kwame kilpatrick, lions, michigan, nfl, sports]
 ---
 
 Okay, let me say something up front. I am not a blogger, but I have a blog. I am a Detroit fan born and raised in The D, but I don't live in Detroit now. I'm a walking contradiction who shouldn't be believed or have any credibility, but I have something to say and I don't care who hears it.  

@@ -1,17 +1,9 @@
 ---
-author: adarshpandit
-date: 2013-05-28
-slug: how-to-become-a-rails-developer
 title: How to Get a Job As a Rails Developer
-categories:
-- Writing
-categories:
-- apprentice
-- learn
-- new developer
-- rails
-- ruby
-- ruby on rails
+author: Adarsh Pandit
+date: 2013-05-28
+category: Rails
+Tags: [apprentice,learn,new developer,rails,ruby,ruby on rails]
 ---
 
 Someone asked me today how to strengthen their application for [apprentice.io](http://apprentice.io).

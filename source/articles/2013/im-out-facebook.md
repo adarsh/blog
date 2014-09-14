@@ -1,13 +1,12 @@
 ---
-title: "I'm out, Facebook"
-date: 2013-08-08 18:34
+title: I'm out, Facebook
+description: I closed my facebook account. Here's why.
+date: 2013-08-08
 published: true
-comments: true
-
-categories: [leaving facebook]
+author: Adarsh Pandit
+tags: [facebook]
+category: writing
 ---
-
-{% img /images/post_images/deactivated_facebook.jpg %}
 
 I've been wrestling with this for a while. My wife deactivated her account more
 than a year ago and found it refreshing.
@@ -18,7 +17,7 @@ little I logged in and why.
 <!-- more -->
 
 Friends?
-========
+--------
 
 I looked at my feed and realized:
 
@@ -27,7 +26,7 @@ I looked at my feed and realized:
 3. The content most people posted was not very interesting to me.
 
 Content
-=======
+-------
 
 The last one is important. Even if I felt no close connection to the people
 posting, if the content was good, I'd probably still check it.
@@ -36,7 +35,7 @@ Most of it was strongly political, incredibly negative, or wildly inappropriate
 (family member passed, very personal medical info, etc).
 
 Kids
-====
+----
 
 Being in my (ahem) 30's, most of my 'friends' had kids, so my wall was a flood
 of pictures of children.
