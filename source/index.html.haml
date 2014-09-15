@@ -1,6 +1,5 @@
 ---
-title: Adarsh Pandit
-description:
+title: Adarsh Pandit's Blog
 ---
 
 %h1 Adarsh Pandit
@@ -8,5 +7,5 @@ description:
   Ruby Developer at
   =link_to('thoughtbot', 'http://thoughtbot.com')
 
-- blog.articles[0..50].each do |article|
+- blog.articles.each do |article|
   = partial 'article', locals: { article: article }

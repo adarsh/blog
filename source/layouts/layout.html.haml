@@ -4,16 +4,15 @@
   <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
   %meta{content:'width=device-width,initial-scale:1.0,maximum-scale:1.0', name:'viewport'}
   %meta{name:'description',content:'#{current_page.data.description}'}
+
   %title= current_page.data.title || settings.site_name
-  %link{rel:'icon', href:'/favicon.ico', type:'image/x-icon'}
-  %link{rel:'shortcut icon', href:'/favicon.ico', type:'image/x-icon'}
+
   = stylesheet_link_tag 'application'
+
   - if current_page.data.author
     %link{href: 'https://plus.google.com/116006351214905134217', rel:'author'}
-  %script
-    window.analytics||(window.analytics=[]),window.analytics.methods=["identify","track","trackLink","trackForm","trackClick","trackSubmit","page","pageview","ab","alias","ready","group","on","once","off"],window.analytics.factory=function(t){return function(){var a=Array.prototype.slice.call(arguments);return a.unshift(t),window.analytics.push(a),window.analytics}};for(var i=0;i<window.analytics.methods.length;i++){var method=window.analytics.methods[i];window.analytics[method]=window.analytics.factory(method)}window.analytics.load=function(t){var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=("https:"===document.location.protocol?"https://":"http://")+"d2dq2ahtl5zl1z.cloudfront.net/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n)},window.analytics.SNIPPET_VERSION="2.0.8",
-    window.analytics.load("9hsla5ru2d");
-    window.analytics.page();
+
 %body
   .container
     = yield
+  .footer

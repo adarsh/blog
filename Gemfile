@@ -15,5 +15,7 @@ gem 'rake'
 gem 'redcarpet'
 
 group :development do
+  gem 'awesome_print'
   gem 'dotenv'
+  gem 'pry'
 end

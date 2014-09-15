@@ -45,6 +45,15 @@ body {
     margin-top: 0px;
     padding-top: 0px;
     text-align: center;
+
+    a {
+      color: #000;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 
   article {
@@ -52,6 +61,15 @@ body {
     font-size: .9em;
     list-style: none;
     margin-bottom: 18px;
+
+    a {
+      color: #000;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
 
     time {
       @include shift(2);
@@ -68,7 +86,7 @@ body {
       text-align: left;
     }
 
-    h2 {
+    h2.title {
       @include span-columns(8);
 
       @include media($mobile) {
@@ -77,18 +95,25 @@ body {
         clear: both;
       }
 
+      font-size: 1.5em;
+      font-weight: 300;
+      margin: 0px;
+    }
+
+    h4.description {
+      @include span-columns(8);
+      @include shift(4);
+
+      @include media($mobile) {
+        @include shift(1);
+        @include span-columns(10);
+        clear: both;
+      }
+
+      margin-top: 0px;
+      text-align: left;
       font-size: 1em;
       font-weight: normal;
-      margin: 0px;
-
-      a {
-        color: #000;
-        text-decoration: none;
-
-        &:hover {
-          text-decoration: underline;
-        }
-      }
     }
   }
 
