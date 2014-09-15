@@ -61,6 +61,7 @@ body {
     font-size: .9em;
     list-style: none;
     margin-bottom: 18px;
+    height: 9em;
 
     a {
       color: #000;
@@ -71,23 +72,39 @@ body {
       }
     }
 
+    .post-attributes {
+      vertical-align: middle;
+    }
+
+    img.logo {
+      @include span-columns(1);
+      @include shift(1);
+      max-width: 5em;
+      height: auto;
+      margin-top: 0.5em;
+      margin-right: 0;
+
+      @include media($mobile) {
+        visibility: hidden;
+      }
+    }
+
     time {
-      @include shift(2);
       @include span-columns(2);
 
       @include media($mobile) {
         @include shift(1);
-        @include span-columns(5);
+        @include span-columns(10);
       }
 
       color: #999;
       display: block;
       font-size: .9em;
-      text-align: left;
+      text-align: center;
     }
 
-    h2.title {
-      @include span-columns(8);
+    .blog-info {
+      @include span-columns(7);
 
       @include media($mobile) {
         @include shift(1);
@@ -95,25 +112,18 @@ body {
         clear: both;
       }
 
-      font-size: 1.5em;
-      font-weight: 300;
-      margin: 0px;
-    }
-
-    h4.description {
-      @include span-columns(8);
-      @include shift(4);
-
-      @include media($mobile) {
-        @include shift(1);
-        @include span-columns(10);
-        clear: both;
+      h2.title {
+        font-size: 1.5em;
+        font-weight: 300;
+        margin: 0px;
       }
 
-      margin-top: 0px;
-      text-align: left;
-      font-size: 1em;
-      font-weight: normal;
+      h4.description {
+        margin-top: 0px;
+        text-align: left;
+        font-size: 1em;
+        font-weight: normal;
+      }
     }
   }
 

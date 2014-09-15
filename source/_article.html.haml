@@ -1,7 +1,22 @@
 %article
-  %time= article.date.strftime('%b %e, %Y')
+  - if article.data['source'].blank?
+    .post-attributes
+      = image_tag('/images/solid_white.svg', class: 'logo')
+      %time= article.date.strftime('%b %e, %Y')
 
-  %h2.title
-    = link_to article.title, article.url
-  %h4.description
-    = link_to article.data['description'], article.url
+    .blog-info
+      %h2.title
+        = link_to article.title, article.url
+      %h4.description
+        = link_to article.data['description'], article.url
+
+  - else
+    .post-attributes
+      = image_tag('http://images.thoughtbot.com/logo.svg', class: 'logo')
+      %time= article.date.strftime('%b %e, %Y')
+
+    .blog-info
+      %h2.title
+        = link_to article.title, article.data['source']
+      %h4.description
+        = link_to article.data['description'], article.data['source']
