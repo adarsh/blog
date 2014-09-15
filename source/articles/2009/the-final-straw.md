@@ -5,6 +5,7 @@ author: Adarsh Pandit
 description: The Lions - The final straw in the decline of Detroit
 category: writing
 tags: [auto industry, bailout, Detroit, economy, kwame kilpatrick, lions, michigan, nfl, sports]
+logo: http://upload.wikimedia.org/wikipedia/en/3/3f/New_Lions_Logo.svg
 ---
 
 Okay, let me say something up front. I am not a blogger, but I have a blog. I am a Detroit fan born and raised in The D, but I don't live in Detroit now. I'm a walking contradiction who shouldn't be believed or have any credibility, but I have something to say and I don't care who hears it.  

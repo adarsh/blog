@@ -6,6 +6,7 @@ published: true
 author: Adarsh Pandit
 tags: [facebook]
 category: writing
+logo: http://upload.wikimedia.org/wikipedia/commons/c/c2/F_icon.svg
 ---
 
 I've been wrestling with this for a while. My wife deactivated her account more

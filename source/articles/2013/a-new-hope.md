@@ -4,6 +4,7 @@ date: 2013-08-08
 description: How to import a WordPress blog into Octopress
 author: Adarsh Pandit
 tags: [octopress, blog, github pages, themes, zsh]
+logo: http://blog.pixelingene.com/images/2011-09-12-switching-to-the-octopress-blogging-engine/octopress_logo.png
 ---
 
 This is a new  Octopress blog set up here at adarsh.github.io using GitHub

@@ -1,9 +1,15 @@
 %article
-  - if article.data['source'].blank?
-    .post-attributes
+  .post-attributes
+    - if article.data['logo'].present?
+      = image_tag(article.data['logo'], class: 'logo')
+    -elsif article.data['source'] =~ /thoughtbot/
+      = image_tag('http://images.thoughtbot.com/logo.svg', class: 'logo')
+    -else
       = image_tag('/images/solid_white.svg', class: 'logo')
-      %time= article.date.strftime('%b %e, %Y')
 
+    %time= article.date.strftime('%b %e, %Y')
+
+  - if article.data['source'].blank?
     .blog-info
       %h2.title
         = link_to article.title, article.url
@@ -11,10 +17,6 @@
         = link_to article.data['description'], article.url
 
   - else
-    .post-attributes
-      = image_tag('http://images.thoughtbot.com/logo.svg', class: 'logo')
-      %time= article.date.strftime('%b %e, %Y')
-
     .blog-info
       %h2.title
         = link_to article.title, article.data['source']
