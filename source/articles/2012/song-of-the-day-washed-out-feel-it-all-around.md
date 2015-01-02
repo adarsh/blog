@@ -9,7 +9,7 @@ logo: http://img.youtube.com/vi/krx6wDSrbBE/0.jpg
 tags: [boards of canada, carrie brownstein, casino vs. japan, Feel it all around, fred armisen, portlandia, song of the day, Washed Out]
 ---
 
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/krx6wDSrbBE/0.jpg)](http://www.youtube.com/watch?v=krx6wDSrbBE)
+[![Washed Out Youtube link](http://img.youtube.com/vi/krx6wDSrbBE/0.jpg)](http://www.youtube.com/watch?v=krx6wDSrbBE)
 
 New favorite song/band discovered
 as the theme song for Fred Armisen and Carrie Brownstein's
