@@ -20,7 +20,7 @@ Boot the middleman server.
 
 ### Deploy to GitHub Pages (source at `adarsh.github.io`)
 
-Run the rake task to deploy the site and purge cache:
+Run the rake task to generate the markup and deploy the site:
 
     $ middleman deploy
     $ open http://adarsh.io
