@@ -2,6 +2,13 @@ activate :blog do |blog|
   blog.permalink = ":title"
   blog.sources = "articles/:title"
   blog.layout = 'article'
+
+  blog.custom_collections = {
+    category: {
+      link: '/categories/{category}.html',
+      template: '/category.html'
+    }
+  }
 end
 
 set :css_dir, 'stylesheets'

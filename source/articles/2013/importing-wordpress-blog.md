@@ -3,6 +3,7 @@ title: Importing WordPress Blog
 date: 2013-08-11
 description: How to import a WordPress blog into Octopress
 author: Adarsh Pandit
+category: blogging
 tags: [ octopress, jekyll, blog, wordpress, export, import]
 logo: http://blog.pixelingene.com/images/2011-09-12-switching-to-the-octopress-blogging-engine/octopress_logo.png
 ---

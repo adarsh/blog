@@ -8,5 +8,6 @@ title: Adarsh Pandit's Blog
   Ruby Developer at
   =link_to('thoughtbot', 'http://thoughtbot.com')
 
-- blog.articles.each do |article|
-  = partial 'article', locals: { article: article }
+- blog.articles.select do |article|
+  - if article.data.category.include?(category)
+    = partial 'article', locals: { article: article }

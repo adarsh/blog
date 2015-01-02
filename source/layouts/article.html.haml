@@ -4,6 +4,7 @@
   .published
     %time= current_page.data.date.strftime('%b %d, %Y')
     %span By #{link_to 'Adarsh Pandit', '/'}
+    %span in #{link_to current_page.data.category, category_path(current_page.data.category)}
   .content
     = yield
     = partial 'author'
