@@ -3,7 +3,7 @@ title: The Lions - The final straw in the decline of Detroit in 2008
 date: 2009-01-04
 author: Adarsh Pandit
 description: The Lions - The final straw in the decline of Detroit
-category: writing
+category: detroit
 tags: [auto industry, bailout, Detroit, economy, kwame kilpatrick, lions, michigan, nfl, sports]
 logo: http://upload.wikimedia.org/wikipedia/en/3/3f/New_Lions_Logo.svg
 ---

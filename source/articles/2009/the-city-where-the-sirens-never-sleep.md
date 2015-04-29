@@ -1,16 +1,11 @@
 ---
-date: 2009-01-08 23:20:17+00:00
 title: The City Where the Sirens Never Sleep
-
-categories:
-- auto industry
-- bailout
-- Detroit
-- downturn
-- economy
-- kwame kilpatrick
-- lions
-- michigan
+date: 2009-01-08
+author: Adarsh Pandit
+description: The Slow Death of Detroit
+category: detroit
+tags: [auto industry , bailout , Detroit , downturn , economy , kwame kilpatrick , lions , michigan]
+logo: spirit_of_detroit.jpg
 ---
 
 Article from the Weekly Standard on the slow death of Detroit. My favorite
