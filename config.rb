@@ -1,7 +1,8 @@
 activate :blog do |blog|
-  blog.permalink = ":title"
-  blog.sources = "articles/:title"
   blog.layout = 'article'
+  blog.new_article_template = 'source/new_article_template.html.erb'
+  blog.permalink = ":title"
+  blog.sources = "articles/{year}/{title}"
 
   blog.custom_collections = {
     category: {
