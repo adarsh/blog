@@ -5,8 +5,7 @@ title: Adarsh Pandit's Blog
 %h1
   =link_to('Adarsh Pandit', '/')
 %h3{class: 'tagline'}
-  Ruby Developer at
-  =link_to('thoughtbot', 'http://thoughtbot.com')
+  Ruby Developer
 
 - blog.articles.each do |article|
   = partial 'article', locals: { article: article }
