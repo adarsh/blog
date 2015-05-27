@@ -6,5 +6,5 @@ author: Adarsh Pandit
 tags: [career transition, job switch]
 category: interviews
 source: http://careerhoot.com/adarsh-pandit-thoughtbot/
-logo: http://careerhoot.com/wp-content/uploads/2012/04/careerhoot-owl.png
+logo: careerhoot_logo.png
 ---

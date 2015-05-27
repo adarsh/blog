@@ -3,9 +3,9 @@
     - if article.data['logo'].present?
       = image_tag(article.data['logo'], class: 'logo')
     -elsif article.data['source'] =~ /thoughtbot/
-      = image_tag('http://images.thoughtbot.com/logo.svg', class: 'logo')
+      = image_tag('thoughtbot_logo.svg', class: 'logo')
     -else
-      = image_tag('/images/solid_white.svg', class: 'logo')
+      = image_tag('solid_white.svg', class: 'logo')
 
     %time= article.date.strftime('%b %e, %Y')
 

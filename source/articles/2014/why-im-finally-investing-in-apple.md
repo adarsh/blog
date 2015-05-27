@@ -5,7 +5,7 @@ description: I might be the last person to do so, but I'm finally buying
 author: Adarsh Pandit
 category: writing
 date: 2014-09-24
-logo: http://www.grasphub.com/wp-content/uploads/2013/09/apple-logo.jpg
+logo: apple-logo.jpg
 published: true
 tags: [apple, stocks, investing]
 ---

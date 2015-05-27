@@ -5,7 +5,7 @@ date: 2013-06-13
 author: Adarsh Pandit
 tags: [vim]
 category: vim
-logo: http://upload.wikimedia.org/wikipedia/commons/4/4f/Icon-Vim.svg
+logo: vim_logo.svg
 ---
 
 ![ADM-3A][1]

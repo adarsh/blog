@@ -4,7 +4,7 @@ description: 'SOTD looks at the theme song for Portlandia'
 date: 2012-01-13 20:50:45+00:00
 author: Adarsh Pandit
 category: SOTD
-logo: http://img.youtube.com/vi/krx6wDSrbBE/0.jpg
+logo: youtube_logo.svg
 
 tags: [boards of canada, carrie brownstein, casino vs. japan, Feel it all around, fred armisen, portlandia, song of the day, Washed Out]
 ---

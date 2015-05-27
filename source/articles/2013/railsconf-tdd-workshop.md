@@ -6,5 +6,5 @@ author: Adarsh Pandit
 tags: [talks, TDD, rails]
 category: talks
 source: http://www.confreaks.com/videos/2450-railsconf2013-tdd-workshop-outward-in-development-unit-tests-and-fixture-data
-logo: http://blog.newrelic.com/wp-content/uploads/railsconf_logo.png
+logo: railsconf_2013_logo.png
 ---

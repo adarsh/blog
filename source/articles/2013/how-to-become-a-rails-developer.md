@@ -5,7 +5,7 @@ description: A concise guide to getting a job as a Rails developer
 date: 2013-05-28
 category: Rails
 Tags: [apprentice,learn,new developer,rails,ruby,ruby on rails]
-logo: http://upload.wikimedia.org/wikipedia/en/e/e9/Ruby_on_Rails.svg
+logo: ruby_on_rails_logo.png
 ---
 
 Someone asked me today how to strengthen their application for [apprentice.io](http://apprentice.io).

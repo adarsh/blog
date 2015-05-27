@@ -4,7 +4,7 @@ description: 'SOTD sticks it to the man'
 date: 2012-01-01 15:51:44+00:00
 author: Adarsh Pandit
 category: SOTD
-logo: http://img.youtube.com/vi/-ftVH-R8rJQ/0.jpg
+logo: youtube_logo.svg
 
 tags: [jenny lewis, rabbit fur coat, rise up with fists, song of the day, watson twins]
 ---

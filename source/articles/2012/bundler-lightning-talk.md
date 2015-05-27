@@ -6,5 +6,5 @@ author: Adarsh Pandit
 tags: [bundler, rails, lightning talks]
 category: rails
 source: https://www.youtube.com/watch?v=mrHhr5k-j-0
-logo: http://upload.wikimedia.org/wikipedia/commons/e/e8/Logo_Youtube.svg
+logo: youtube_logo.svg
 ---
