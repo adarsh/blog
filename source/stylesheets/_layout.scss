@@ -7,6 +7,15 @@ body {
   @include media($mobile) {
     font-size: 14px;
   }
+
+  a {
+    color: #000;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 .container {
@@ -25,15 +34,6 @@ body {
 
     @include media($tablet) {
       padding: 0px;
-    }
-
-    a {
-      color: #000;
-      text-decoration: none;
-
-      &:hover {
-        text-decoration: underline;
-      }
     }
   }
 
