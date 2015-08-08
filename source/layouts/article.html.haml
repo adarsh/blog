@@ -2,7 +2,7 @@
   %h1
     = link_to current_page.data.title, current_page.url
   .published
-    %time= current_page.data.date.strftime('%b %d, %Y')
+    %time= current_page.data.date.strftime('%b %-d, %Y')
     %span By #{link_to 'Adarsh Pandit', '/'}
     %span in #{link_to current_page.data.category, category_path(current_page.data.category)}
   .content

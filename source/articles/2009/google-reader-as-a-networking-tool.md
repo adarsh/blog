@@ -1,14 +1,14 @@
 ---
-date: 2009-02-19 17:07:31+00:00
+description: Using networking and productivity tactics to generate sales interest
 title: Google Reader as a networking tool
+date: 2009-02-19
 
-categories:
-- contacts
-- gmail
-- productivity
-- software
-- tools
-- networking
+author: Adarsh Pandit
+category: consulting
+date: 2009-02-19
+logo: terminal_icon.png
+published: true
+tags: [contacts, gmail, productivity, software, tools, networking]
 ---
 
 I've been thinking a lot about networking, largely because I'm trying to get to
