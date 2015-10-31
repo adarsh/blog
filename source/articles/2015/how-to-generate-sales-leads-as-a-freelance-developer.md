@@ -4,7 +4,7 @@ description: Using networking and productivity tactics to generate sales interes
 
 author: Adarsh Pandit
 category: consulting
-date: 2015-08-08
+date: 2015-10-31
 logo: terminal_icon.png
 published: true
 tags: [consulting, sales, leads, networking, content marketing]

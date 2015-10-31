@@ -4,7 +4,7 @@ description: Reflections on what has worked well for me in freelance consulting
 
 author: Adarsh Pandit
 category: consulting
-date: 2015-08-08
+date: 2015-10-31
 logo: terminal_icon.png
 published: true
 tags: [freelance, consulting, developer, software, sales, leads, networking]
