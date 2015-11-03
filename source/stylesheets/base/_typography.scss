@@ -1,4 +1,4 @@
-$base-font-color: $black;
+$base-font-color: $dark-gray;
 
 body {
   color: $base-font-color;
@@ -13,7 +13,7 @@ body {
 }
 
 a {
-  color: $black;
+  color: $base-font-color;
   text-decoration: none;
 
   &:active,

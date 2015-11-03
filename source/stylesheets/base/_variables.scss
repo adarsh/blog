@@ -5,7 +5,7 @@ $visual-grid: false;
 $black: #000000;
 $white: #ffffff;
 $blue: #3b9fed;
-$dark-gray: #1a1a1a;
+$dark-gray: #0f0f0f;
 $dark-gray-opacity: rgba(26, 26, 26, 0);
 $medium-gray: #4d4d4d;
 $light-gray: #ddd;
@@ -13,14 +13,17 @@ $light-gray: #ddd;
 // Font Colors
 $action-color: $blue;
 
-// Font Sizes
+// Fonts
 // This is the reference em definition. Do not change.
 $base-font-size: 1em;
-$base-font-family: Georgia, Times, serif;
+
+// Font Families
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+$base-font-family: Roboto, Georgia, Times, serif;
 $heading-font-family: $base-font-family;
 
 // Line height
-$base-line-height: 1.5;
+$base-line-height: 1.7;
 $heading-line-height: 1.2;
 
 // Animations
