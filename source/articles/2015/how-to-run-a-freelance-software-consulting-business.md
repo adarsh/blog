@@ -4,7 +4,7 @@ description: Reflections on what has worked well for me in freelance consulting
 
 author: Adarsh Pandit
 category: consulting
-date: 2015-10-31
+date: 2015-10-30
 logo: terminal_icon.png
 published: true
 tags: [freelance, consulting, developer, software, sales, leads, networking]
@@ -57,10 +57,16 @@ something slimy and manipulative
 into clear and honest tactics
 for growing a small business.
 
-The first post is here: [how to generate sales leads][1].
-I'll link to the rest here as I write them.
+### UPDATE:
 
-[1]: /how-to-generate-sales-leads-as-a-freelance-developer
+Here is the list of articles in the series:
+
+* [How to Generate Sales Leads][sales leads].
+* [How to Turn Sales Leads into Awesome Paid Work][closing leads].
+
+
+[sales leads]: /how-to-generate-sales-leads-as-a-freelance-developer
+[closing leads]: /how-to-turn-sales-leads-into-awesome-paid-work
 
 Feedback is always welcome
  and very appreciated
@@ -78,4 +84,3 @@ try him on [Twitter][4].
 
 [4]: https://twitter.com/sprad
 [5]: http://www.justinspradlin.com
-
