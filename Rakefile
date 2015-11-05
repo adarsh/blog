@@ -45,14 +45,3 @@ task :new do
 
   puts "Created new post at #{filename}"
 end
-
-desc 'Deploy blog to Heroku'
-task :deploy => :dotenv do
-  puts 'Deploying to Heroku'
-  `git push heroku master`
-
-  puts 'Purging edge-cache'
-  api_key = ENV['FASTLY_KEY']
-  site_key = ENV['FASTLY_SITE_KEY']
-  `curl -X POST -H 'Fastly-Key: #{api_key}' https://api.fastly.com/service/#{site_key}/purge_all`
-end
