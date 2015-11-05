@@ -18,13 +18,12 @@ as the theme song for Fred Armisen and Carrie Brownstein's
 which is a hipster show which makes fun of hipsters. Also, it's funny.
 
 I'm a sucker for sentimental music, which this certainly is.
-It reminds me of [Boards of Canada](http://www.amazon.com/gp/product/B000AP2ZQC/ref=as_li_ss_tl?ie=UTF8&tag=whmomyth-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B000AP2ZQC)
+It reminds me of [Boards of Canada](http://amzn.to/1l9LcOl)
 in a way (Great retro video for
 "[ROYGBIV](http://www.youtube.com/watch?v=yT0gRc2c2wQ)"). Or the more obscure
-"[Casino vs.
-Japan](http://www.amazon.com/gp/product/B00006G9ZN/ref=as_li_ss_tl?ie=UTF8&tag=whmomyth-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B00006G9ZN)"
+"[Casino vs. Japan](http://www.amazon.com/gp/product/B00006G9ZN/ref=as_li_ss_tl?ie=UTF8&linkCode=sl1&tag=whmomyth-20&linkId=7ae4b7211c1b3201fe6b42439e6f2b8b)"
 (their amazing "Aquarium"
 ([youtube](http://www.youtube.com/watch?v=VzK1YYldoic))
 
 Anyhow, enjoy.
-([Buy from Amazon](http://www.amazon.com/gp/product/B002OPFCXY/ref=as_li_ss_tl?ie=UTF8&tag=whmomyth-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B002OPFCXY))
+([Buy from Amazon](http://www.amazon.com/Feel-It-All-Around/dp/B003BNCDE4/ref=as_li_ss_tl?ie=UTF8&linkCode=sl1&tag=whmomyth-20&linkId=09faa179f4d5b662c27971c376f655fb))

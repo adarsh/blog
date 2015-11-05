@@ -11,14 +11,14 @@ tags: [jenny lewis, rabbit fur coat, rise up with fists, song of the day, watson
 
 [![Jenny Lewis Youtube link](http://img.youtube.com/vi/-ftVH-R8rJQ/0.jpg)](http://www.youtube.com/watch?v=-ftVH-R8rJQ)
 
-Today's selection is from [Jenny Lewis](http://www.jennylewis.com/home)'
+Today's selection is from [Jenny Lewis](http://www.jennylewis.com/)'
 really phenomenal 2006 album
-"[Rabbit Fur Coat](http://www.amazon.com/gp/product/B000CQQHPY/ref=as_li_ss_il?ie=UTF8&tag=whmomyth-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B000CQQHPY)" 
-recorded with the [Watson Twins](http://www.thewatsontwins.com/).
+"[Rabbit Fur Coat](http://amzn.to/1MCeScK)" 
+recorded with the [Watson Twins](http://thewatsontwins.com).
 Since she's got a long acting resume in addition to fronting
 [Rilo Kiley](http://rilokiley.com/),
 she gets a lot of comparisons to
- [Zooey Deschanel](http://www.amazon.com/gp/product/B0012IWHQO/ref=as_li_ss_il?ie=UTF8&tag=whmomyth-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B0012IWHQO)
+ [Zooey Deschanel](http://amzn.to/20xS48v)
 (latter better actress, former better musician).
 
 Anyhow, this song feels like the right way to start the year on an upbeat note.
@@ -26,4 +26,4 @@ Anyhow, this song feels like the right way to start the year on an upbeat note.
 
 Happy New Year!
 
-[Jenny Lewis and the Watson Twins "Rabbit Fur Coat" at Amazon](http://www.amazon.com/gp/product/B000CQQHPY/ref=as_li_ss_il?ie=UTF8&tag=whmomyth-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B000CQQHPY)
+[Jenny Lewis and the Watson Twins "Rabbit Fur Coat" at Amazon](http://amzn.to/1MCeScK/)

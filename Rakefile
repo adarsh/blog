@@ -8,6 +8,12 @@ namespace :assets do
   end
 end
 
+desc 'Check for broken links'
+task :links do
+  sh 'middleman build'
+  sh "check-links 'build' --max-threads 500 --no-warnings"
+end
+
 desc 'Create a new post'
 task :new do
   STDOUT.print 'Please enter the post title: '
