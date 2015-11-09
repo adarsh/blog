@@ -40,3 +40,5 @@ activate :directory_indexes
 activate :livereload
 activate :neat
 activate :syntax
+
+page '/feed.xml', layout: false

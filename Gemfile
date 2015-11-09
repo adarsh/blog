@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.2.3'
 
+gem 'builder'
 gem 'middleman'
 gem 'middleman-blog'
 gem 'middleman-deploy'
