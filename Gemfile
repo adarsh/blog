@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 ruby '2.2.3'
 
 gem 'link-checker'
+gem 'builder'
 gem 'middleman'
 gem 'middleman-blog'
 gem 'middleman-deploy'
