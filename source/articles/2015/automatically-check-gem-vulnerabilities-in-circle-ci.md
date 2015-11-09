@@ -3,7 +3,7 @@ title: Automate Gem Vulnerability Checks
 description: Add bundle-audit to CircleCI to automate gem security checking
 
 author: Adarsh Pandit
-category: programming
+category: rails
 date: 2015-06-15
 logo: ruby_on_rails_logo.png
 published: true

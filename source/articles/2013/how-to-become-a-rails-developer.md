@@ -3,7 +3,7 @@ title: How to Get a Job As a Rails Developer
 author: Adarsh Pandit
 description: A concise guide to getting a job as a Rails developer
 date: 2013-05-28
-category: Rails
+category: rails
 Tags: [apprentice,learn,new developer,rails,ruby,ruby on rails]
 logo: ruby_on_rails_logo.png
 ---
