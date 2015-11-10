@@ -6,6 +6,7 @@
   %meta{name:'description', content: data.page.description}
 
   %title= current_page.data.title || settings.site_name
+  %link{href: 'feed.xml', rel: 'alternate', title: 'RSS', type: 'application/rss+xml'}
 
   = stylesheet_link_tag 'application'
 
@@ -16,3 +17,4 @@
   .container
     = yield
   .footer
+    = partial('layouts/footer')
