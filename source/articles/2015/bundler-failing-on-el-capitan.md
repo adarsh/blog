@@ -5,7 +5,7 @@ description: How to fix OpenSSL header issues after upgrading to OS X El Capitan
 author: Adarsh Pandit
 category: rails
 date: 2015-11-09
-logo: terminal_icon.png
+logo: ruby_on_rails_logo.png
 published: true
 tags: [bundler, ruby on rails, el capitan, openssl, os x, openssl]
 ---

@@ -19,7 +19,7 @@ set :js_dir, 'javascripts'
 set :markdown, fenced_code_blocks: true, smartypants: true
 set :markdown_engine, :redcarpet
 set :relative_links, true
-set :site_name, 'Adarsh Pandit Blog'
+set :site_name, 'Adarsh Pandit'
 set :trailing_slash, false
 
 configure :build do
