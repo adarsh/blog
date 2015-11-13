@@ -1,0 +1,17 @@
+# https://houndci.com/configuration
+coffeescript:
+  # config_file: .coffeescript-style.json
+  enabled: true
+haml:
+  # config_file: .haml-style.yml
+  enabled: true
+javascript:
+  # config_file: .javascript-style.json
+  # ignore_file: .javascript_ignore
+  enabled: true
+ruby:
+  config_file: .rubocop.yml
+  enabled: true
+scss:
+  config_file: .scss-lint.yml
+  enabled: true
