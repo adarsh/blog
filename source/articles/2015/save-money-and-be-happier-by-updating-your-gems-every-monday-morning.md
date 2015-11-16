@@ -4,7 +4,7 @@ description: An approach to avoiding the technical debt of gem drift
 
 author: Adarsh Pandit
 category: writing
-date: 2015-11-12
+date: 2015-11-16
 logo: ruby_on_rails_logo.png
 published: true
 tags: [ruby on rails, update gems, versions, technical debt, upgrade gems]
