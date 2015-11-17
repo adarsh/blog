@@ -41,4 +41,8 @@ activate :livereload
 activate :neat
 activate :syntax
 
+activate :google_analytics do |ga|
+  ga.tracking_id = 'UA-1322480-9'
+end
+
 page '/feed.xml', layout: false
