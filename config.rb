@@ -35,6 +35,7 @@ activate :deploy do |deploy|
   deploy.branch  = 'master'
 end
 
+activate :automatic_alt_tags
 activate :automatic_image_sizes
 activate :directory_indexes
 activate :livereload
