@@ -46,3 +46,4 @@ activate :google_analytics do |ga|
 end
 
 page '/feed.xml', layout: false
+page '/sitemap.xml', layout: false
