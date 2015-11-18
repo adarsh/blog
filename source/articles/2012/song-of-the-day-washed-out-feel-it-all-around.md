@@ -1,7 +1,7 @@
 ---
 title: 'Song of the Day: Washed Out - "Feel it all around"'
 description: 'SOTD looks at the theme song for Portlandia'
-date: 2012-01-13 20:50:45+00:00
+date: 2012-01-13
 author: Adarsh Pandit
 category: SOTD
 logo: youtube_logo.svg

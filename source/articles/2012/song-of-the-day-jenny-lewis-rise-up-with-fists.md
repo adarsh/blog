@@ -1,7 +1,7 @@
 ---
 title: 'Song of the Day - Jenny Lewis "Rise Up with Fists"'
 description: 'SOTD sticks it to the man'
-date: 2012-01-01 15:51:44+00:00
+date: 2012-01-01
 author: Adarsh Pandit
 category: SOTD
 logo: youtube_logo.svg
