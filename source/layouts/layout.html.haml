@@ -1,22 +1,24 @@
-%head
-  <!--[if IE]><script src='http://html5shiv.googlecode.com/svn/trunk/html5.js'></script><![endif]-->
-  %meta{charset:'utf-8'}
-  <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
-  %meta{content:'width=device-width', name:'viewport'}
-  %meta{name:'description', content: data.page.description}
+!!!
+%html
+  %head
+    <!--[if IE]><script src='http://html5shiv.googlecode.com/svn/trunk/html5.js'></script><![endif]-->
+    %meta{charset:'utf-8'}
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+    %meta{content:'width=device-width', name:'viewport'}
+    %meta{name:'description', content: data.page.description}
 
-  %title= current_page.data.title || settings.site_name
-  %link{href: 'feed.xml', rel: 'alternate', title: 'RSS', type: 'application/rss+xml'}
+    %title= current_page.data.title || settings.site_name
+    %link{href: 'feed.xml', rel: 'alternate', title: 'RSS', type: 'application/rss+xml'}
 
-  = stylesheet_link_tag 'application'
+    = stylesheet_link_tag 'application'
 
-  - if current_page.data.author
-    %link{href: 'https://plus.google.com/116006351214905134217', rel:'author'}
+    - if current_page.data.author
+      %link{href: 'https://plus.google.com/116006351214905134217', rel:'author'}
 
-  = google_analytics_universal_tag
+    = google_analytics_universal_tag
 
-%body
-  .container
-    = yield
-  .footer
-    = partial('layouts/footer')
+  %body
+    .container
+      = yield
+    .footer
+      = partial('layouts/footer')
