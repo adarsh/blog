@@ -3,12 +3,6 @@ title: Adarsh Pandit's Blog
 description: Adarsh Pandit's Blog - Ruby, Rails, JavaScript, Detroit, Life
 ---
 
-%h1
-  =link_to('←', 'http://alexfox.me', title: 'Yes, this is a webring')
-  =link_to('Adarsh Pandit', '/')
-  =link_to('→', 'http://gabebw.com', title: 'Yes, this is a webring')
-%h3{class: 'tagline'}
-  Ruby Developer
-
-- blog.articles.each do |article|
-  = partial 'article', locals: { article: article }
+.articles-container
+  - blog.articles.each do |article|
+    = partial 'partials/article', locals: { article: article }

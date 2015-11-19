@@ -1,0 +1,36 @@
+// Debugging Neat's Grid - turn this on to see the lines
+$visual-grid: false;
+
+// Colors
+$black: #000000;
+$white: #ffffff;
+$blue: #3b9fed;
+$dark-gray: #1a1a1a;
+$dark-gray-opacity: rgba(26, 26, 26, 0);
+$medium-gray: #4d4d4d;
+$light-gray: #ddd;
+
+// Font Colors
+$action-color: $blue;
+
+// Font Sizes
+// This is the reference em definition. Do not change.
+$base-font-size: 1em;
+$base-font-family: Georgia, Times, serif;
+$heading-font-family: $base-font-family;
+
+// Line height
+$base-line-height: 1.5;
+$heading-line-height: 1.2;
+
+// Animations
+$base-duration: 150ms;
+$base-timing: ease;
+
+// Spacing
+$base-spacing: $base-line-height * 1em;
+$small-spacing: $base-spacing / 2;
+
+// Border
+$base-border-color: $light-gray;
+$base-border: 1px solid $base-border-color;

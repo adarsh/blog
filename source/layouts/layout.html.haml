@@ -18,7 +18,11 @@
     = google_analytics_universal_tag
 
   %body
-    .container
+    .body-container
+      .header-container
+        = partial('layouts/header')
+
       = yield
-    .footer
-      = partial('layouts/footer')
+
+      .footer-container
+        = partial('layouts/footer')

@@ -1,5 +1,14 @@
-@import "bourbon";
-@import "grid-settings";
-@import "neat";
-@import "layout";
-@import "code-highlight";
+// Order of this file is important
+@charset 'utf-8';
+
+// Libraries
+@import 'bourbon'; // must be before neat
+@import 'neat';
+
+// General styles
+@import 'base/base';
+@import 'layout';
+
+// Page-specific styles
+@import 'landing/articles';
+@import 'article/article';

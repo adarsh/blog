@@ -66,6 +66,7 @@ PreCommit:
     description: 'Analyzing with scss-lint'
     required_executable: 'scss-lint'
     install_command: 'gem install scss-lint'
+    problem_on_unmodified_line: ignore
     include: '**/*.scss'
 
   SlimLint:

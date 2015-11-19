@@ -1,0 +1,110 @@
+.article-container {
+  @include outer-container;
+
+  .article-title {
+    @include shift(2);
+    @include span-columns(8);
+    font-size: 1.5em;
+    text-align: center;
+
+    @include media($mobile) {
+      @include shift(1);
+      @include span-columns(10);
+      padding: 0 0 1em;
+    }
+  }
+
+  .timestamp {
+    @include shift(2);
+    @include span-columns(8);
+    font-size: 0.7em;
+    text-align: center;
+
+    time {
+      display: inline-block;
+      letter-spacing: 0.1em;
+      margin-right: 3px;
+    }
+
+    span {
+      font-style: italic;
+    }
+  }
+
+  .content {
+    @include pad();
+    @include shift(2);
+    @include span-columns(8);
+
+    @include media($tablet) {
+      @include shift(1);
+      @include span-columns(10);
+    }
+
+    @include media($mobile) {
+      @include shift(1);
+      @include span-columns(10);
+
+      img {
+        width: 100%;
+      }
+    }
+
+    h2 {
+      font-size: 1.3em;
+      font-weight: bold;
+      padding: 1.3em 0 0.2em;
+    }
+
+    h3 {
+      font-size: 1em;
+      font-weight: bold;
+    }
+
+    img {
+      display: block;
+      margin: 30px auto;
+    }
+  }
+
+  .author {
+    @include outer-container;
+    padding: 25px 10px;
+
+    .pic {
+      @include span-columns(2);
+
+      .avatar {
+        border: 1px solid $black;
+        border-radius: 100%;
+        height: 80px;
+        margin: 0;
+        width: 80px;
+
+        @include media($mobile) {
+          height: 30px;
+          width: 30px;
+        }
+      }
+    }
+
+    .info {
+      @include span-columns(10);
+
+      h6 {
+        font-size: 1.2em;
+        font-weight: normal;
+        margin: 8px 0 0;
+      }
+
+      p {
+        margin-top: 0;
+      }
+    }
+  }
+
+  .related {
+    border-top: 1px dotted $dark-gray;
+    font-size: 0.9em;
+  }
+}

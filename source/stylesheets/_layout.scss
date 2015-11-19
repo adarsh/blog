@@ -1,273 +1,36 @@
-body {
-  font-family: Georgia, Times, serif;
-  font-size: 16px;
-  margin: 0px;
-  padding: 0px;
+.header-container {
+  @include outer-container;
+  text-align: center;
 
   @include media($mobile) {
-    font-size: 14px;
+    height: auto;
   }
 
-  a {
-    color: #000;
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-}
-
-.container {
-  @include outer-container;
-  font-size: 1.125em;
-  line-height: 1.8em;
-  margin-bottom: 48px;
-  margin-top: 58px;
-
-  h1 {
-    font-weight: normal;
-    line-height: 1.2em;
-    margin-bottom: 10px;
-    padding: 0px 120px;
-    text-align: center;
-
-    @include media($tablet) {
-      padding: 0px;
-    }
-  }
-
-  .tagline {
-    font-color: #eee;
-    font-style: italic;
-    font-weight: normal;
-    margin-bottom: 58px;
-    margin-top: 0px;
-    padding-top: 0px;
-    text-align: center;
-
-    a {
-      color: #000;
-      text-decoration: none;
-
-      &:hover {
-        text-decoration: underline;
-      }
-    }
-  }
-
-  article {
-    @include outer-container;
-    font-size: .9em;
-    list-style: none;
-    margin-bottom: 18px;
-    height: 9em;
-
-    a {
-      color: #000;
-      text-decoration: none;
-
-      &:hover {
-        text-decoration: underline;
-      }
-    }
-
-    .post-attributes {
-      vertical-align: middle;
-    }
-
-    img.logo {
-      @include span-columns(1);
-      @include shift(1);
-      max-width: 5em;
-      height: auto;
-      margin-top: 0.5em;
-      margin-right: 0;
-
-      @include media($mobile) {
-        visibility: hidden;
-      }
-    }
-
-    time {
-      @include span-columns(2);
-
-      @include media($mobile) {
-        @include shift(1);
-        @include span-columns(10);
-      }
-
-      color: #999;
-      display: block;
-      font-size: .9em;
-      text-align: center;
-    }
-
-    .blog-info {
-      @include span-columns(7);
-
-      @include media($mobile) {
-        @include shift(1);
-        @include span-columns(10);
-        clear: both;
-      }
-
-      h2.title {
-        font-size: 1.5em;
-        font-weight: 300;
-        margin: 0px;
-      }
-
-      h4.description {
-        margin-top: 0px;
-        text-align: left;
-        font-size: 1em;
-        font-weight: normal;
-      }
-    }
-  }
-
-  .published {
-    font-size: .7em;
-    text-align: center;
-
-    time {
-      display: inline-block;
-      letter-spacing: 0.1em;
-      margin-right: 3px;
-    }
-
-    span {
-      font-style: italic;
-
-      a {
-        color: #333;
-        font-style: normal;
-        font-weight: bold;
-        text-decoration: none;
-
-        &:hover {
-          text-decoration: underline;
-        }
-      }
-    }
-  }
-
-  .content {
-    @include pad();
-    @include shift(2);
-    @include span-columns(8);
-
-    @include media($tablet) {
-      @include shift(1);
-      @include span-columns(10);
-    }
+  .blog-title {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.7em 0 0.3em;
 
     @include media($mobile) {
-      @include shift(1);
-      @include span-columns(10);
-
-      img {
-        width: 100%;
-      }
-    }
-
-    h2 {
-      font-weight: bold;
-      font-size: 1.3em;
-    }
-
-    h3 {
-      font-weight: bold;
-      font-size: 1.0em;
-    }
-
-    img {
-      display: block;
-      margin: 30px auto;
-    }
-
-    a {
-      color: #54A8D8;
-    }
-
-    p {
-      color: #3c3c3c;
+      font-size: 1.5em;
+      margin-bottom: 0.1em;
+      padding: 0;
     }
   }
 
-  .author {
-    @include outer-container;
-    padding: 25px 10px;
+  .blog-subtitle {
+    font-size: 1em;
+    padding: 0 0 3em;
 
-    .pic {
-      @include span-columns(2);
-
-      .avatar {
-        border-radius: 100%;
-        border: 1px solid #DDD;
-        height: 80px;
-        margin: 0px;
-        width: 80px;
-
-        @include media($mobile) {
-          height: 30px;
-          width: 30px;
-        }
-      }
+    @include media($mobile) {
+      font-size: 0.5em;
+      padding: 0 0 2em;
     }
-
-    .info {
-      @include span-columns(10);
-
-      h6 {
-        margin: 8px 0px 0px 0px;
-        font-weight: normal;
-        font-size: 1.2em;
-      }
-
-      p {
-        margin-top: 0px;
-      }
-    }
-  }
-
-  .open-positions {
-    background: #fcf9e2;
-    padding: 25px;
-
-    h2 {
-      text-align: center;
-      font-style: italic;
-    }
-  }
-
-  .related {
-    border-top: 1px dotted #c9c5cf;
-    font-size: .9em;
   }
 }
 
-div.centered {
-  text-align: center;
-}
-
-img.centered {
-  display: block;
-  margin: 30px auto;
-}
-
-blockquote {
-  font-style: italic;
-
-  p {
-    padding: 0px;
-    margin: 0px;
-    white-space: pre-wrap;
-  }
-}
-
-.footer {
+.footer-container {
   display: block;
   font-style: italic;
   padding-bottom: 10em;
