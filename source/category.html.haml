@@ -10,4 +10,4 @@ title: Adarsh Pandit's Blog
 
 - blog.articles.select do |article|
   - if article.data.category.include?(category)
-    = partial 'article', locals: { article: article }
+    = partial 'partials/article', locals: { article: article }
