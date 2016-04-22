@@ -50,20 +50,35 @@
       }
     }
 
+    a {
+      color: $base-font-color;
+      text-decoration: underline;
+
+      &:active,
+      &:focus,
+      &:hover {
+        color: $action-color;
+      }
+    }
+
     h2 {
-      font-size: 1.3em;
+      font-size: 150%;
       font-weight: bold;
       padding: 1.3em 0 0.2em;
     }
 
     h3 {
-      font-size: 1em;
+      font-size: 125%;
       font-weight: bold;
     }
 
     img {
       display: block;
       margin: 30px auto;
+    }
+
+    p {
+      margin-bottom: 2em;
     }
   }
 

@@ -15,8 +15,7 @@ How I set it up (cribbed heavily from [this post by Paul Sturgess][1]):
 
 <!-- more -->
 
-Initial setup
-=============
+## Initial setup
 
 Create a new repo named `username.github.io` cloned from the Octopress repo:
 
@@ -37,8 +36,7 @@ $ bundle install
 Skip the installation of the default theme (`$ rake install`) - we'll install
 something nicer in a moment.
 
-Setup GitHub User Pages
-=======================
+## Setup GitHub User Pages
 
 Octopress has a nice Rake task for setting up a blog under GitHub Pages:
 
@@ -60,8 +58,7 @@ This does a bunch of stuff. I'll let [Paul][1] explain more clearly:
 >
 > Visit http://yourgithubusername.github.io and check it out
 
-Add a Theme
-===========
+## Add a Theme
 
 While Octopress is pretty great out of the box, the default theme is a little
 stale. I'm using [LeanPress][2]:
@@ -75,8 +72,7 @@ $ rake generate
 There's a gotcha here for zsh users: Under zsh, these rake commands with square
 brackets need escaping. I think it's okay to skip this under bash.
 
-Configure `_config.yml`
-=======================
+## Configure `_config.yml`
 
 There's a ton of stuff in here, but for now, just edit the stuff at the top:
 
@@ -93,8 +89,7 @@ simple_search: http://google.com/search
 description:
 ```
 
-Add Posts
-=========
+## Add Posts
 
 ```zsh
 $ rake new_post\['Episode 4: A New Blog'\]
@@ -119,8 +114,7 @@ $ git commit -am 'First Commit and post!'
 $ git push
 ```
 
-Profit
-======
+## Profit
 
 Profit!
 

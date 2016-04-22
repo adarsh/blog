@@ -1,6 +1,7 @@
 activate :blog do |blog|
   blog.layout = 'article'
-  blog.new_article_template = 'source/new_article_template.html.erb'
+  blog.new_article_template = File.expand_path('source/new_article_template.html.erb', File.dirname(__FILE__))
+  blog.default_extension = '.html.md' #'Default template extension for articles'
   blog.permalink = ":title"
   blog.sources = "articles/{year}/{title}"
 
@@ -13,7 +14,7 @@ activate :blog do |blog|
 end
 
 set :css_dir, 'stylesheets'
-set :haml, ugly: true
+set :haml, { ugly: true, format: :html5 }
 set :images_dir, 'images'
 set :js_dir, 'javascripts'
 set :markdown, fenced_code_blocks: true, smartypants: true
@@ -30,16 +31,15 @@ end
 
 activate :deploy do |deploy|
   deploy.build_before = true
-  deploy.method = :git
-  deploy.remote  = 'git@github.com:adarsh/adarsh.github.io.git'
-  deploy.branch  = 'master'
+  deploy.deploy_method = :git
+  deploy.remote = 'git@github.com:adarsh/adarsh.github.io.git'
+  deploy.branch = 'master'
 end
 
 activate :automatic_alt_tags
 activate :automatic_image_sizes
 activate :directory_indexes
 activate :livereload
-activate :neat
 activate :syntax
 
 activate :google_analytics do |ga|

@@ -19,7 +19,7 @@ but focuses a lot more on Old Detroit than it's future.
 
 <!-- more -->
 
-It's hard to watch. I wrote <%= link_to('this', '/2009/the-final-straw') %> on
+It's hard to watch. I wrote [this]('/2009/the-final-straw') on
 the old blog when things were at their worst (2009). Since then, a lot has
 changed, mostly for the better. There is a lot of this "New Brooklyn/Portland"
 talk, and the artists have not stopped showing up in the city. As [Richard
