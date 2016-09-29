@@ -1,6 +1,6 @@
 PreCommit:
   ALL:
-    quiet: true
+    quiet: false
 
   BundleCheck:
     enabled: true
