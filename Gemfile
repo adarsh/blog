@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.3.0'
+ruby '2.3.1'
 
 # TODO: Install these in separate PRs.
 # gem 'middleman-search_engine_sitemap'
