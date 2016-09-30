@@ -1,6 +1,7 @@
 .DS_Store
+.rubocop-*
 /.bundle
 /.cache
 /.sass-cache
-/build
 /bin
+/build
