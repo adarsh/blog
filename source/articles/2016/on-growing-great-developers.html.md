@@ -22,7 +22,7 @@ If you want help setting up a program like this, [email me](mailto:hi@cylinder.w
 
 
 ![apprenticeship](apprenticeship.png)
-  _photo courtesy of WOCinTech ([wocintechchat.com](wocintechchat.com))_
+  _photo courtesy of WOCinTech ([wocintechchat.com](http://www.wocintechchat.com?utm_source=adarsh.io&utm_medium=blog))_
 
 ### Why Steal
 
