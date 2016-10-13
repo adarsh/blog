@@ -66,23 +66,8 @@ Nowadays, we usually write `attr_reader :expensive_method`.
 
 Keen readers will note
 we are actually instantiating an instance variable here.
-That means we can access it from outside the class
-(assuming it's public):
-
-```ruby
-irb(main):001:0> def method_name; @ivar ||= 207; end
-:method_name
-irb(main):002:0> @ivar
-nil
-irb(main):003:0> method_name
-207
-irb(main):003:0> @ivar
-207
-```
-
-This is inadvertently adding to the class's public API.
-We should avoid this because we want to keep the
-API surface area minimal, to the extent possible.
+That means we can access it from other instance methods.
+Not a huge deal, but it's intended for internal use when memoizing.
 
 Enter the underscore.
 
@@ -103,12 +88,42 @@ end
 This is, of course, a style preference with no functional impact.
 It's also [just my opinion, man][8].
 
+## Instance Variables in Controllers
+
+Also, as my friend [Gabe][9] [pointed out to me][10],
+it's even more important to use an underscore
+when memoizing in Rails controllers:
+
+> "Since all controller ivars are available in the view,
+> it's often helpful to mark ivars that should only be used
+> in the controller with a leading underscore.
+> That also allows things like this,
+> where `@users` is exposed to the view and `@_users` is just used for
+> memoization:"
+>
+> ```ruby
+> def index
+>   @posts = posts.where(user: users.where(has_post: true))
+>   @users = users.where(confirmed: true)
+> end
+>
+> private
+>
+> def users
+>   @_users = User.all
+> end
+> ```
+
+It's good to have smart friends.
 
 [4]: https://github.com/bbatsov/ruby-style-guide/#syntax
 [5]: https://stackoverflow.com/questions/5893163/what-is-the-purpose-of-the-single-underscore-variable-in-python
 [6]: https://prime.haskell.org/wiki/Underscore
 [7]: http://lua-users.org/wiki/LuaStyleGuide
 [8]: http://i.giphy.com/F3G8ymQkOkbII.gif
+[9]: https://twitter.com/gabebw
+[10]: https://github.com/adarsh/blog/pull/61#issuecomment-253646457
+
 
 
 ## Further Reading
