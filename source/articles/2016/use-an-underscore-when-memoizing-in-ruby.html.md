@@ -110,7 +110,7 @@ when memoizing in Rails controllers:
 > private
 >
 > def users
->   @_users = User.all
+>   @_users ||= User.all
 > end
 > ```
 
